@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhino", "Rhino.csproj", "{62F82900-1790-4CD8-83E6-D434B41EACEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F82900-1790-4CD8-83E6-D434B41EACEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F82900-1790-4CD8-83E6-D434B41EACEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F82900-1790-4CD8-83E6-D434B41EACEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F82900-1790-4CD8-83E6-D434B41EACEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E8214A7-ED00-4FE8-BCDE-F487F2A82F11}
+	EndGlobalSection
+EndGlobal
