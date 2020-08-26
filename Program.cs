@@ -129,9 +129,9 @@ namespace Rhino
             //Methods
             //Block of code that performs specific task. container of code.
 
-            SayHi("Colton");
-            SayHi("Ate");
-            SayHi("Mum");
+            SayHi("Colton", 4);
+            SayHi("Ate", 15);
+            SayHi("Mum", 39);
 
             Console.ReadLine(); // Pauses the execution of the Program
 
@@ -142,9 +142,9 @@ namespace Rhino
         // Only code in the Main Program can be run.
         // Call Methods in the Main code block
 
-        static void SayHi(string name)
+        static void SayHi(string name, int age)
         {
-            Console.WriteLine("Hello " + name);
+            Console.WriteLine("Hello " + name + " you are " + age);
 
         }
 
