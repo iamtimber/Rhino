@@ -10,9 +10,18 @@ namespace Rhino
     {
         static void Main(string[] args)
         {
-            
-            Console.ReadLine(); // Pauses the execution of the Program
+            Console.WriteLine(cube(5));
 
+            Console.ReadLine();
+
+        }
+
+        // Sub Method
+
+        static int cube(int num)
+        {
+            int result = num * num * num;
+            return result;
         }
 
 
