@@ -130,6 +130,9 @@ namespace Rhino
             //Block of code that performs specific task. container of code.
 
             SayHi("Colton");
+            SayHi("Ate");
+            SayHi("Mum");
+
             Console.ReadLine(); // Pauses the execution of the Program
 
         }
