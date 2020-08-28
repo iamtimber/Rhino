@@ -10,19 +10,22 @@ namespace Rhino
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(cube(5));
+            bool isMale = false;
+            bool isTall = true;
+
+            if (isMale && isTall) // Using 2 ampersands means 'and'
+
+            {
+                Console.WriteLine("You are a tall Male");
+            } else
+            {
+                Console.WriteLine("You are either not Male or not Tall or Both.");
+            }
 
             Console.ReadLine();
 
         }
 
-        // Sub Method
-
-        static int cube(int num)
-        {
-            int result = num * num * num;
-            return result;
-        }
 
 
     }
